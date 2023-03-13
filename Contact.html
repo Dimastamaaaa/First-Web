@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MOKAI-Company Profile Web</title>
+    <link
+      rel="stylesheet"
+      href="asset/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="asset/css/main.css">
+  </head>
+  <body>
+  <!--UNTUK NAVBAR-->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark main-nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">MOKAI.</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+    </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav ms-auto py-2">
+                        <a class="nav-link px-3" 
+                            aria-current="page" href="index.html">Home</a>
+                          <a class="nav-link px-3" href="Fitur.html">About</a>
+                        <a class="nav-link active px-3" href="Contact.html">Contact</a>
+                  </div>
+              </div>
+          </div>
+  </nav>
+
+  <!--UNUTUK KONTEN-->
+    <section>
+      <div class="container py-5">
+        <form action="/contact" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Send</button>
+        </form>    
+      </div>
+    </section>
+  <!--UNTUK FOOTER-->
+      <section>
+        <div class="main-ungumuda py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <div class="mb-3">
+                  <a href="index.html">MOKAI.</a>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                      Sunt consequatur nobis obcaecati consequuntur numquam veniam?
+                    </p>
+                    <p>
+                      Designed & Develop With &heartsuit;
+                    </p>
+                  </div>
+                  <div class="col-lg-3 mb-3">
+                    <h3>COMMUNITY</h3>
+                    <ul>
+                      <li><a href="">Blog1</a></li>
+                      <li><a href="">Blog2</a></li>
+                      <li><a href="">Blog3</a></li>
+                      <li><a href="">Blog4</a></li>
+                    </ul>
+                  </div> 
+                  <div class="col-lg-3 mb-3">
+                    <h3>SUPPORT</h3>
+                    <ul>
+                      <li><a href="">Help!</a></li>
+                      <li><a href="">Report!</a></li>
+                    </ul>  
+                </div>
+                <div class="col-lg-3 mb-3">
+                  <h3>SOSIAL</h3>
+                  <ul>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Telegram</a></li>
+                  </ul>
+              </div>
+            </div>
+            <div class="text-center main-footer-copy">
+              Copyright &copy; 2022.All Rights</div>
+    </section>
+  </body>
+</html>
